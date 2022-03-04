@@ -1,0 +1,36 @@
+Installation Git
+----------------
+
+Step1: Update you linux system by using command
+## yum update -y
+
+Step2: Install the git by using command
+## yum install git -y
+
+Step3: Check the Version
+## git --version
+
+Step4: then inzitallation the git by command 
+## git init
+
+Step5: git clone with git hub repository
+## git clone <url>
+
+" Then check the git hub repo is their any folder are file and create in local repo"
+
+Step6: mkdir folder name <Project1>
+	Cd project1
+	"Create file in project"
+	touch File1.txt
+
+Step7: add the file in git repo using command
+##  git add .
+
+Step8 : Then commit the file into the github repo using command
+## git commit -m "file is adding" <file name> File1.txt
+
+Step8: Last step to push file  into the local repo to remote repo
+## git push origin master
+
+\\Then git is asking the crediential like your mail id and Passwd\\
+
